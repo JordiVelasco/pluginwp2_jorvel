@@ -21,7 +21,7 @@ function nouPeuPagDef(){
 }
 function afegPeuPagDef(){    
 echo '<a href="http://www.formacioprofessional.com/ca/programes/desenvolupament-daplicacions-web-inclou-modul-de-programacio-daplicacions-en-entorns-mobil">'.get_option('footer_text').'</a>';
-echo '<a href="https://clot.fje.edu/ca"><img src="logo_clot_fje.png"/></a>';
+echo '<a href="https://clot.fje.edu/ca"><img src="/logo_clot_fje.png"></a>';
 }
 add_action('admin_menu', 'admin_menu_peu_pagina');
 add_action('wp_footer','afegPeuPagDef');
