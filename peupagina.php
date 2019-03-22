@@ -26,6 +26,7 @@ function afegPeuPagDef(){
 		margin: 10px;'>"
 		.get_option('footer_text').
 	"</div>";
+	<a href="http://www.formacioprofessional.com/ca/programes/desenvolupament-daplicacions-web-inclou-modul-de-programacio-daplicacions-en-entorns-mobils" target="_blank">Link</a>
 }
 add_action('admin_menu', 'admin_menu_peu_pagina');
 add_action('wp_footer','afegPeuPagDef');
