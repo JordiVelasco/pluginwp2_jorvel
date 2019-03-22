@@ -23,7 +23,8 @@ function afegPeuPagDef(){
 	echo 
 	"<div style='color: red;    
 		font-size: 10px;    
-		margin: 10px;'>"
+		margin: 10px;'><a href="http://www.formacioprofessional.com/ca/programes/desenvolupament-daplicacions-web-inclou-modul-de-programacio-daplicacions-en-entorns-mobils" target="_blank">Link</a>
+""
 		.get_option('footer_text').
 	"</div>";
 }
