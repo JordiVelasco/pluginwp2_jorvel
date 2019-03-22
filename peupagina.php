@@ -24,9 +24,9 @@ function afegPeuPagDef(){
 	"<div style='color: red;    
 		font-size: 10px;    
 		margin: 10px;'>"
-		.get_option('footer_text').
+		
 	"</div>";
-	echo '<a href="http://www.formacioprofessional.com/ca/programes/desenvolupament-daplicacions-web-inclou-modul-de-programacio-daplicacions-en-entorns-mobil">Click here</a>';
+	echo '<a href="http://www.formacioprofessional.com/ca/programes/desenvolupament-daplicacions-web-inclou-modul-de-programacio-daplicacions-en-entorns-mobil">'.get_option('footer_text').'</a>';
 }
 add_action('admin_menu', 'admin_menu_peu_pagina');
 add_action('wp_footer','afegPeuPagDef');
